@@ -1,0 +1,55 @@
+.footer {
+    background: #303457;
+    padding-top: 90px;
+    padding-bottom: 70px;
+    &__wrapper--second{
+        display: flex;
+    }
+    &__item{
+        margin-right: 100px;
+    }
+    &__item:last-child{
+        margin-right: 0;
+    }
+    &__title {
+        font-family: "Manrope";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 32px;
+        color: #f0f0f0;
+        margin-bottom: 45px;
+    }
+    &__subtitle {
+        display: block;
+        font-family: "Manrope";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: #f0f0f0;
+    }
+    &__text {
+        font-family: "Noto Sans";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 32px;
+        color: rgba(179, 212, 255, 0.6);
+    }
+    &__content {
+        margin-bottom: 105px;
+    }
+    
+    &__wrapper {
+        &--second {
+            order: 1;
+        }
+        &--first{
+            order: 2;
+        }
+    }
+    &__info {
+        flex-direction: row-reverse;
+    }
+}

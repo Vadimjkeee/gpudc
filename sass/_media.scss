@@ -1,0 +1,294 @@
+@media (max-width: 1200px) {
+    .consultation {
+        &__name {
+            &-input {
+                min-width: 300px;
+            }
+        }
+        &--left {
+            flex: 0 1 0 !important;
+            width: 50% !important;
+        }
+    }
+    .footer {
+        &__item {
+            margin-right: 60px;
+        }
+    }
+}
+
+@media (max-width: 1100px) {
+    .table {
+        overflow: auto;
+        position: relative;
+    }
+    .table table {
+        display: inline-block;
+        vertical-align: top;
+        max-width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+@media (max-width: 992px) {
+    .consultation {
+        &__rule {
+            margin-left: 10%;
+        }
+    }
+    .offers {
+        &__title {
+            font-size: 20px;
+        }
+    }
+    .footer {
+        &__wrapper {
+            &--second {
+                width: 100% !important;
+                order: 2;
+            }
+            &--first {
+                order: 1;
+            }
+        }
+        &__info {
+            flex-direction: row;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 650px !important;
+    }
+    .consultation {
+        &__rule {
+            margin-left: 20%;
+        }
+        &__name {
+            &-input {
+                min-width: 300px;
+            }
+        }
+        &--left {
+            width: 100% !important;
+            margin-bottom: 30px;
+        }
+        &--right {
+            flex: 0 1 0 !important;
+            width: 100% !important;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .col {
+        &--right {
+            display: none;
+        }
+        &--left {
+            width: 50% !important;
+        }
+    }
+    .nav {
+        &-link {
+            font-family: "Manrope";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 31px !important;
+            line-height: 32px;
+            color: #f0f0f0;
+            margin-bottom: 30px;
+        }
+    }
+
+    .btn {
+        &-entry {
+            min-width: 45%;
+        }
+        &-registration {
+            min-width: 45%;
+        }
+    }
+
+    .header {
+        &__btn {
+            &-entry {
+                background: #303457;
+            }
+        }
+        &__buttons {
+            &-burger {
+                margin-bottom: 70px;
+                margin-top: 80px;
+                display: flex;
+                justify-content: space-around;
+            }
+        }
+        &__message {
+            display: flex;
+            justify-content: space-around;
+            color: #fff;
+        }
+        &__navbar {
+            display: none;
+            &-burger {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        &__start {
+            display: none;
+        }
+    }
+    .rent {
+        padding-top: 35px;
+        max-width: 500px;
+        &__title {
+            font-size: 31px;
+            line-height: 40px;
+        }
+    }
+    .burger {
+        display: block;
+        &__show {
+            background-color: #303457 !important;
+        }
+    }
+
+    .collapse {
+        background-color: #303457;
+    }
+    .offers {
+        &__title {
+            font-size: 20px;
+            margin-bottom: 6px;
+        }
+        &__content {
+            flex-wrap: wrap !important;
+            flex: 0 0 1 !important;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        &__item {
+            max-width: 360px;
+            width: 100% !important;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            display: flex;
+            align-items: center;
+        }
+        &__img {
+            width: 120px;
+            height: 120px;
+        }
+    }
+    .consultation {
+        padding-bottom: 76px;
+        &__title {
+            font-size: 31px;
+        }
+        &__checkbox {
+            margin-bottom: 36px;
+        }
+    }
+    .advantages {
+        &__title {
+            font-size: 31px;
+            padding-bottom: 60px;
+        }
+        &--left {
+            flex: 0 0 auto !important;
+        }
+        &__marker {
+            margin-top: -60px;
+        }
+    }
+    .about {
+        &__title {
+            font-size: 31px;
+        }
+    }
+    .request {
+        &__title {
+            font-size: 31px;
+        }
+        &__img {
+            display: none;
+        }
+        &--left {
+            flex: 0 0 auto !important;
+        }
+        &__btn {
+            display: flex;
+            justify-content: center;
+            margin: auto;
+        }
+        &__content {
+            padding-bottom: 83px;
+        }
+    }
+    .instruction {
+        &__title {
+            font-size: 31px;
+        }
+        &__item {
+            align-items: flex-start;
+        }
+        &__subtitle {
+            margin-bottom: 35px;
+        }
+        &__list {
+            width: 80% !important;
+        }
+        &__buttons {
+            justify-content: space-between !important;
+        }
+        &__btn {
+            height: 60px;
+            width: 45% !important;
+        }
+    }
+    .servers {
+        &__title {
+            font-size: 31px;
+        }
+        &__subtitle {
+            font-size: 18px;
+        }
+    }
+    .footer {
+        &__item {
+            margin-right: 40px;
+        }
+        &__title {
+            margin-bottom: 0;
+        }
+        &__col {
+            width: 50%;
+            margin-bottom: 100px;
+            &--first {
+                margin-right: 175px;
+            }
+        }
+        &__wrapper {
+            &--second {
+                order: 1;
+                margin-bottom: 74px;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        &__col {
+            &--first {
+                margin-right: 75px;
+            }
+        }
+    }
+}

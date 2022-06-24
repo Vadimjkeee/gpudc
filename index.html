@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>gpudc</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.1.0/mdb.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="row justify-content-md-center header__content">
+				<div class="col-4 col--left header__start">
+					<img src="img/header/logo.svg" alt="Логотип" class="header-logo">
+					<span class="header-logo-text">gpudc</span>
+				</div>
+				<div class="col-8 col--right header__start">
+					<div class="header__telegram">
+						<span class="telegram-text">Telegram</span>
+						<img src="img/header/telegram.svg" alt="Логотип telegram" class="telegram">
+					</div>
+					<div class="header__whatsapp">
+						<span class="whatsapp-text">Whatsapp</span>
+						<img src="img/header/whatsapp.svg" alt="Логотип whatsapp" class="whatsapp">
+					</div>
+					<div class="header__buttons">
+						<button class="btn-registration" type="submit">Регистрация</button>
+						<button class="btn-entry" type="submit">Вход</button>
+					</div>
+				</div>
+
+
+				<section class="mb-3 burger">
+					<nav class="navbar">
+						<div class="container-fluid">
+							<div class="col-4 col--left">
+								<img src="img/header/logo.svg" alt="Логотип" class="header-logo">
+								<span class="header-logo-text">gpudc</span>
+							</div>
+							<button class="navbar-toggler first-button" type="button" data-mdb-toggle="collapse"
+								data-mdb-target="#navbarToggleExternalContent9"
+								aria-controls="navbarToggleExternalContent9" aria-expanded="false"
+								aria-label="Toggle navigation">
+								<div class="animated-icon1"><span></span><span></span><span></span></div>
+							</button>
+						</div>
+					</nav>
+					<div class="collapse" id="navbarToggleExternalContent9">
+						<div class=" shadow-3 p-4">
+							<ul class="nav justify-content-evenly header__navbar-burger">
+								<li class="nav-item">
+									<a class="nav-link active" href="#s1">Аренда серверов</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#s2">Инфраструктура</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#s3">FAQ</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#s4">Блог</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#s5">Контакты</a>
+								</li>
+							</ul>
+							<div class="header__buttons-burger">
+								<button class="btn-registration" type="submit">Регистрация</button>
+								<button class="btn-entry header__btn-entry" type="submit">Вход</button>
+							</div>
+							<div class="header__message">
+								<div class="header__telegram-burger">
+									<span class="telegram-text">Telegram</span>
+									<img src="img/header/telegram.svg" alt="Логотип telegram" class="telegram">
+								</div>
+								<div class="header__whatsapp-burger">
+									<span class="whatsapp-text">Whatsapp</span>
+									<img src="img/header/whatsapp.svg" alt="Логотип whatsapp" class="whatsapp">
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+
+		<div class="header__navbar">
+			<div class="nav__container">
+				<ul class="nav justify-content-evenly header__navbar">
+					<li class="nav-item">
+						<a class="nav-link active" href="#s1">Аренда серверов</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#s2">Инфраструктура</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#s3">FAQ</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#s4">Блог</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#s5">Контакты</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+
+	<main class="main" >
+		<section class="rent">
+			<div class="container">
+				<h1 class="rent__title">
+					Аренда GPU серверов для проектов, требующих масштабных вычислений и
+					высокой производительности
+				</h1>
+				<p class="rent__subtitle">
+					Bare metal сервера обеспечивают высокую скорость вычислений и
+					надежную систему безопасности за счет прямого доступа к аппаратной
+					части, в отличие от виртуальных серверов, которые делятся между
+					клиентами.
+				</p>
+				<button class="rent_button rent-btn" type="button">
+					Попробовать бесплатно
+				</button>
+			</div>
+		</section>
+
+		<section class="servers" id="s1">
+			<div class="container">
+				<h2 class="servers__title">Готовые серверы в аренду</h2>
+				<p class="servers__subtitle">
+					Серверы с быстрой сдачей запускаются в течение за 20 минут после
+					заказа
+				</p>
+			</div>
+			<div class="table">
+				<table class="table_sort">
+					<thead>
+						<tr>
+							<th scope="col" data-type="id"><span class="table__name"> id</span></th>
+							<th scope="col" data-type="gpu"><span class="table__name">GPU</span></th>
+							<th scope="col" data-type="cpu"><span class="table__name"> CPU</span></th>
+							<th scope="col" data-type="ram"><span class="table__name"> RAM</span></th>
+							<th scope="col" data-type="storage"><span class="table__name"> Storage</span></th>
+							<th scope="col" data-type="price"><span class="table__name"> Цена в час</span></th>
+						</tr>
+					</thead>
+					<tbody></tbody>
+				</table>
+			</div>
+			<button class="servers-btn" type="button">Все GPU сервера</button>
+		</section>
+
+		<section class="offers" id="s2">
+			<div class="container">
+				<div class="row offers__content">
+					<div class="col-4 offers__item">
+						<img src="img/main/bare-metal.png" alt="серверы" class="offers__img" />
+						<div class="offers__text">
+							<h5 class="offers__title">Bare metal серверы</h5>
+							<p class="offers__subtitle">
+								Прямой доступ к аппаратной части. Сервер не делится между
+								клиентами
+							</p>
+						</div>
+					</div>
+					<div class="col-4 offers__item">
+						<img src="img/main/accses.png" alt="быстрый доступ" class="offers__img" />
+						<div class="offers__text">
+							<h5 class="offers__title">Быстрый доступ к аренде</h5>
+							<p class="offers__subtitle">
+								20 минут на конфигурацию сервера после оплаты
+							</p>
+						</div>
+					</div>
+					<div class="col-4 offers__item">
+						<img src="img/main/price.png" alt="Цены" class="offers__img" />
+						<div class="offers__text">
+							<h5 class="offers__title">Доступные цены</h5>
+							<p class="offers__subtitle">
+								Посекундная тарификация и низкие цены
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="instruction" id="s3">
+			<div class="container">
+				<h2 class="instruction__title">Как арендовать готовый сервер</h2>
+				<div class="row justify-content-md-center instruction__item">
+					<div class="col-4 instruction__num">
+						<p class="instruction__num-item">1</p>
+						<p class="instruction__num-item">2</p>
+						<p class="instruction__num-item">3</p>
+					</div>
+					<div class="col-6 instruction__list">
+						<p class="instruction__subtitle">Создайте учетную запись</p>
+						<p class="instruction__subtitle">
+							Пополните баланс любым удобным способом
+						</p>
+						<p class="instruction__subtitle">
+							Выберите готовый сервер из списка и нажмите “Арендовать”
+						</p>
+					</div>
+				</div>
+				<div class="row justify-content-center instuction__buttons">
+					<button class="col-4 btn-registration instruction__btn" type="button">
+						Зарегистрироваться
+					</button>
+					<button class="col-4 btn-entry instruction__btn" type="button">
+						Текстовый доступ
+					</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="request">
+			<div class="container">
+				<div class="row align-items-start request__content">
+					<div class="col request--left">
+						<h2 class="request__title">
+							Кастомные GPU серверы и GPU кластеры
+						</h2>
+						<div class="request__img">
+							<img src="img/main/GPU.png" alt="gpu" />
+						</div>
+					</div>
+					<div class="col request--right">
+						<p class="request__subtitle">
+							Для долгосрочной аренды или для проектов требующих масштабных
+							вычислений мы даем возможность взять в аренду сервер
+							индивидуальной конфигурации и высокопроизводительный GPU кластер
+							с определенным образом и железом?
+						</p>
+						<p class="request__subtitle">
+							GPU кластер, представляющий собой массив GPU серверов,
+							объединенных в одну сеть, применяется для сложных вычислений в
+							научно-исследовательских и производственных целях. Кластер
+							собирается на базе видеокарт NVIDIA Tesla P100 с возможностью
+							объединить от 20 до 100 видеокарт.
+						</p>
+						<p class="request__subtitle request__subtitle--eng">
+							Our infrastructure includes onehost Nodes with NVLINK (Up to 4
+							GPU in NVLINK), RDMA over Infinityband (up to 100gbps) with up
+							to 30 Nodes in network, NAS with up to 100Tb space. We provide
+							help in configuration of Hadoop Yarn GPU cluster for Bigdata
+							processing or DeepSpeed distributed Deep Neural Network training
+						</p>
+						<button class="btn-registration request__btn" type="button">
+							Отправить запрос
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="about">
+			<div class="container">
+				<h2 class="about__title">О компании</h2>
+				<div class="about__text">
+					<p class="about__subtitle">
+						Аренда GPU предоставляет быстрые и надежные графические серверы с
+						графическим процессором для высокопроизводительных вычислений,
+						глубокого обучения, машинного обучения, искусственного интеллекта,
+						научных исследований, 3D-моделирования, игр и многого другого.
+						Каждый сервер имеет предустановленное программное обеспечение для
+						прогрессивных рабочих нагрузок глубокого обучения. Вы также можете
+						установить свое собственное программное обеспечение.
+					</p>
+					<p class="about__subtitle">
+						Наш сервер предназначен только для одного клиента, который в
+						настоящее время арендует его, т.е. в отличие от виртуальных
+						серверов, сервер с открытым исходным кодом не разделяется между
+						клиентами, что гарантирует высокую скорость, лучшую
+						производительность и полную безопасность.
+					</p>
+					<p class="about__subtitle">
+						Выберите лучший графический процессор для удовлетворения ваших
+						профессиональных потребностей с почасовыми опциями и получите
+						максимальную производительность при минимальных затратах на рынке.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="advantages">
+			<div class="container">
+				<h2 class="advantages__title">Преимущества</h2>
+				<div class="row align-items-start advantages__content">
+					<div class="col">
+						<ul class="advantages__list">
+							<li class="advantages__item">
+								Сервера на базе видеокарт GPU Tesla GPUs: V100 32GB, V100
+								16GB, P100 16GB
+							</li>
+							<li class="advantages__item">
+								Внутренняя сеть 40Гбит/с для распареллеливания обучения
+								нейронных сетей и доступа к данным.
+							</li>
+							<li class="advantages__item">
+								Максимальная производительность сервера благодаря отсутствию
+								виртуализации
+							</li>
+						</ul>
+					</div>
+					<div class="col">
+						<ul class="advantages__list">
+							<li class="advantages__item">
+								Посекундная тарификация и бесплатный пробный доступ
+							</li>
+							<li class="advantages__item">
+								Безопасность данных благодаря root доступу и отсутствию
+								виртуализации.
+							</li>
+							<li class="advantages__item">
+								Установленнная операционная система Linux Ubuntu с разными
+								вариациями (dropdown)
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="consultation" id="s4">
+			<div class="container">
+				<h2 class="consultation__title">Нужна консультация?</h2>
+				<p class="consultation__subtitle">
+					Оставьте заявку и мы свяжемся с Вами в течение рабочего дня.
+				</p>
+
+				<div class="row justify-content-center consultation__content">
+					<div class="col-4 consultation--left">
+						<label for="consultation-name" class="consultation__name-title">Имя</label>
+						<input id="consultation-name" type="text" class="consultation__name-input" />
+						<label for="consultation-email" class="consultation__name-title" >Почта</label>
+						<input id="consultation-email" type="email" class="consultation__name-input" value="______@___.__"/>
+						<label for="consultation-tel" class="consultation__name-title">Телефон</label> 
+						<input id="consultation-tel" type="text"
+							class="consultation__name-input consultation__name-input--last" onkeyup="javascript:mask('consultation-tel', '+7(000)000-00-00', event);" value="+7(___)___-____"/>
+					</div>
+					<div class="col-4 consultation--right">
+						<label for="consultation-comment" class="consultation__name-title">Комментарий</label>
+						<textarea id="consultation-comment" type="text"
+							class="consultation__name-input consultation__name-input--last consultation__name-input--comm">
+				</textarea>
+					</div>
+				</div>
+
+
+
+				<div class="consultation__rule">
+					<input type="checkbox" id="agree" class="consultation__checkbox" />
+					<label for="agree" class="consultation__text">I agree
+						<a href="#" class="consultation__rules">
+							to terms and conditions
+						</a></label>
+					<button class="consultation__btn btn-registration" type="button">
+						Отправить сообщение
+					</button>
+				</div>
+			</div>
+		</section>
+	</main>
+
+
+	<footer class="footer" id="s5">
+		<div class="container">
+			<div class="row justify-content-evenly footer__content">
+				<div class="col footer__col footer__col--first">
+					<p class="footer__title">Аренда GPU серверов</p>
+					<a href="#" class="footer__subtitle">Готовые и кастомные серверы</a>
+					<a href="#" class="footer__subtitle">Инфраструктура</a>
+					<a href="#" class="footer__subtitle">Тестовый доступ</a>
+				</div>
+				<div class="col footer__col">
+					<p class="footer__title">Компания</p>
+					<a href="#" class="footer__subtitle">FAQ</a>
+					<a href="#" class="footer__subtitle">Блог</a>
+					<a href="#" class="footer__subtitle">Контакты</a>
+				</div>
+				<div class="col footer__col">
+					<p class="footer__title">Юридическая информация</p>
+					<a href="#" class="footer__subtitle">Реквизиты</a>
+					<a href="#" class="footer__subtitle">Договор об оказании услуг (Публичная оферта)</a>
+					<a href="#" class="footer__subtitle">Политика конфиденциальности</a>
+					<a href="#" class="footer__subtitle">Согласие на обработку персональных данных</a>
+					<a href="#" class="footer__subtitle">Лицензии ???</a>
+				</div>
+			</div>
+
+			<div class="row footer__info">
+				<div class="footer__wrapper--second col-6">
+					<div class="footer__item">
+						<span class="footer__text">Карта сайта</span>
+					</div>
+					<div class="footer__item">
+						<span class="footer__text">Личный кабинет</span>
+					</div>
+					<div class="footer__item">
+						<span class="footer__text">Поддержка</span>
+					</div>
+				</div>
+				<div class="col-sm-6 footer__wrapper--first">
+					<span class="footer__text">® Copyright © 2022 gpudc</span>
+				</div>
+
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/index.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.1.0/mdb.min.js"></script>
+</body>
+
+</html>
